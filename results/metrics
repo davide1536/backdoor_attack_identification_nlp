@@ -1,0 +1,92 @@
+ 
+svm total pplm: 
+    f1 0.4716
+    accuracy: 0.96
+    classe 0 support: 8762
+    classe 1 support: 191
+    precision 
+        classe 0: 1
+        classe 1: 0.33
+    recall
+        classe 0:0.96
+        classe 1: 0.85
+    f1
+        classe 0: 0.98
+        classe 1: 0.47
+
+svm lstm:
+    f1: 0.5294
+    accuracy: 0.36
+    classe 0 support: 0
+    classe 1 support: 100
+    precision:
+        classe 0: 0
+        classe 1: 1
+    recall:
+        classe 0: 0
+        classe 1: 0.36
+    f1
+        classe 0:0
+        classe 1: 0.53
+
+        
+        
+NN pplm reducted (+0.0003)
+    f1 0.29
+    accuracy: 0.91
+    classe 0 support: 8762
+    classe 1 support: 191
+    precision:
+        classe 0:1
+        classe 1:0.18
+    recall:
+        classe 0: 0.91
+        classe 1: 0.84
+    f1:
+        classe 0: 0.95
+        classe 1: 0.29
+
+NN pplm 
+    accuracy: 0.97
+    classe 0 support: 8762
+    classe 1 support: 191
+    precision:
+        classe 0: 0.99
+        classe 1: 0.38
+    recall: 
+        classe 0: 0.97
+        classe 1: 0.73
+    f1:
+        classe 0: 0.98
+        classe 1: 0.50
+
+
+        
+NN lstm reducted
+    accuracy: 0.49
+    0: 0
+    1:100
+    precision:
+        classe 0: 0
+        classe 1: 1
+    recall:
+        classe 0:0
+        classe 1: 0.49
+    f1:
+        classe 0: 0
+        classe 1: 0.66
+
+        
+        
+        
+NN lstm
+    accuracy: 0.34
+    precision:
+        classe 0: 0
+        classe 1: 1
+    recall:
+        classe 0:0
+        classe 1: 0.34
+    f1:
+        classe 0:0
+        classe 1:0.51

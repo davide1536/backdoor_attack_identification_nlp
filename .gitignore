@@ -22,7 +22,7 @@ Thumbs.db
 
 #result images
 /cns_paper
-/results
+#/results
 /result_new
 
 #external repository
